@@ -1,0 +1,51 @@
+/* Selettore TAG - generico*/
+@media screen and (max-width:600 px) { 
+body { 
+    background-color: beige;
+   } 
+} 
+
+h1 { 
+    color:red;
+    front-size: 2rem;
+} 
+
+h2 { 
+    color:lightseagreen;
+    front-size: 2rem;
+} 
+
+p { 
+    color:black;
+    line-height: 1.5;
+} 
+
+/*Selettore ID*/
+#image-pos{ 
+    padding-bottom: 60px;
+    width: 400;
+    height: 400;
+    border: 20px solid beige;
+    background-color: beige;
+    object-fit: cover;
+
+} 
+
+#image-pis{ 
+    padding-bottom: 60px;
+    width: 400;
+    height: 400;
+    border: 20px solid beige;
+    background-color: beige;
+    object-fit: cover;
+}
+
+/* Selettore Classe */
+.module { 
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    gap: 8px;
+    width:500px;
+    border:2px solid red;
+}
