@@ -1,0 +1,44 @@
+/* Selettori - selezioniamo il corrispondente elemento in CSS */
+/* Selettore TAG */
+body { 
+    color: black;
+    background-color: #bc708a;
+  } 
+
+h1 { 
+    color: violet;
+    front-size: 2rem;
+} 
+
+h2 { 
+    color: pink;
+    front-size: 2rem;
+} 
+
+p { 
+    color:black;
+    line-height: 1.5;
+} 
+
+
+/* Selettore Classe */
+.module { 
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+    width:500px;
+    border:2px solid blue;
+} 
+
+.table-x,
+.table-y {
+    padding:20px;
+    border: 1px solid;
+} 
+
+th{ 
+    background-color: pink;
+    color: white;
+    text-align: left;
+} 
+
