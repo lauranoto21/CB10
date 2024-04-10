@@ -1,0 +1,49 @@
+/* Selettore TAG */
+
+body  {
+    color: white;
+} 
+
+
+/* Selettore Classe */
+.h1 { 
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    border: 5px solid black;
+    color: #fd1d3b;
+} 
+
+
+.p {
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+    padding: 5 px;
+    color: black;
+    background-color: yellow;
+} 
+
+.custom-link { 
+    margin: 10px 20px;
+    width: 100px;
+    height: 20px;
+    padding: 20px 0 30px 0; /* padding superiore di 20px e padding inferiore di 30px */
+    border: 5px solid green;
+    color: #1d41fd;
+}
+
+.custom-list { 
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    padding: 0px;
+    border: 5px ssolid green;
+    box-sizing:  border-box; /* Applica box-sizing alla lista */
+}
+
+.custom-list li {
+    padding: 10px;
+    border-bottom: 1px solid black; /* Aggiungi bordo inferiore solo per separare gli elementi di lista */
+    box-sizing: border-box; /* Applica box-sizing agli elementi della lista */
+  }
