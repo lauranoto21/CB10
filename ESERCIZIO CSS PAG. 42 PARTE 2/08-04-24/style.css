@@ -1,0 +1,26 @@
+/* Selettore TAG */
+
+body  {
+    color: white;
+} 
+
+
+/* Selettore Classe */
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto; /* Imposta il margine superiore a 20px e il margine orizzontale automaticamente */
+    margin-left: 40px; /* Aggiunge un margine sinistro di 40px (sovrascrivendo il valore precedente) */
+    background-color: blue;
+    padding: 20px; /* Aggiunge un padding per mantenere spazio tra il contenuto e il bordo del contenitore */
+  }
+
+  .container h2 {
+    margin-top: 0; /* Rimuove il margine superiore predefinito del titolo */
+  }
+
+  .container p,
+.container a {
+  margin-bottom: 10px; /* Aggiunge un margine inferiore per separare gli elementi */
+}
