@@ -1,0 +1,7 @@
+/* Selettore TAG */
+ p { 
+      padding: 20px; /* Padding del paragrafo */
+      border: 2px solid green; /* Bordo solido verde di 2px */
+      border-radius: 10px; /* Bordo arrotondato */
+      color: black;
+} 
