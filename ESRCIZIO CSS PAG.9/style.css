@@ -1,0 +1,30 @@
+/* Selettore TAG */
+body { 
+    color: black;
+    background-color: #bc708a;
+  } 
+
+h1 { 
+    color: violet;
+    front-size: 48px;
+} 
+
+h2 { 
+    color: black;
+    front-size: 2rem;
+} 
+
+p { 
+    color:black;
+    front-size:36px;
+    line-height: 1.5;
+} 
+
+/*Classe CSS per l'elenento con la sottolineatura*/
+.underline{ 
+    text-decoration: underline;
+} 
+
+a { 
+    color: violet;
+} 
