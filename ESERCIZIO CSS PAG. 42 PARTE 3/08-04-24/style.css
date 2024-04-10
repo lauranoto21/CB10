@@ -1,0 +1,16 @@
+/* Selettore Classe */
+.container {
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .inline-element {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid blue;
+  }
