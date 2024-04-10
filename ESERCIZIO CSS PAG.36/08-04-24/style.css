@@ -1,0 +1,75 @@
+/* Selettore TAG */
+
+body  { 
+    background-color: pink; /* Cambia il colore dello sfondo del body della pagina */
+}
+
+
+h1 { 
+    color: #fd1d3b;
+} 
+
+
+p { 
+    color:  #3ab44f;
+} 
+
+
+a { 
+    color: #1d41fd;
+}
+
+a:hover { 
+    color: red; /* Cambia il colore del testo del link in rosso quando il mouse passa sopra il link */
+}
+
+
+/* Selettore Classe */
+.title {
+    font-family: Arial, sans-serif; /* Cambia il font del titolo in Arial */
+    text-align: center; /* Cambia l'allineamento del testo del titolo */
+  }
+  
+  .paragraph {
+    font-family: "Times New Roman", Times, serif; /* Cambia il font del paragrafo in Times New Roman */
+    text-align: justify; /* Cambia l'allineamento del testo del paragrafo */
+}
+
+.paragraph-1 {
+    text-decoration: underline; /* Cambia la decorazione del testo del primo elemento */
+}
+
+.paragraph-2 {
+text-decoration: overline; /* Cambia la decorazione del testo del secondo elemento */
+}
+
+.paragraph-3 {
+text-decoration: line-through; /* Cambia la decorazione del testo del terzo elemento */
+}
+
+  
+  .link {
+    font-family: "Courier New", Courier, monospace; /* Cambia il font del link in Courier New */
+    text-align: right; /* Cambia l'allineamento del testo del link */
+  }
+    
+
+
+  .custom-list  {
+    font-size: 1.5; /* Cambia la dimensione dell'elemento */
+
+ }
+
+ .custom-input [input="text"],
+ .custom-input [input="password"] { 
+    font-weight: normal; /* Cambia il peso del testo dei campi di input */
+    text-transform: uppercase; /* Cambia la trasformazione del testo dei campi input in uppercase */
+ }
+
+ .custom-button {
+    font-weight: bold; /* Cambia il pesp del testo del pulsante quanddo si passa sopra con il mouse in bold */
+    text-transform: capitalize; /* Cambia la trasformazione del testo del pulsante quando si passa sopra con il mouse*/
+ }
+
+
+  
