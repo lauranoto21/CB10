@@ -1,0 +1,44 @@
+/* Selettore TAG */
+
+body  { 
+    background-color: pink;
+}
+
+
+h1 { 
+    background-color: red;
+    color: #fd1d3b;
+} 
+
+
+p { 
+    background-color: green;
+    color:  #3ab44f;
+} 
+
+
+a { 
+    background-color: blue;
+    color: #1d41fd;
+}
+
+/* Selettore Classe */
+.custom-list { 
+    color: rgb(0, 255, 255);
+}
+
+.custom-input [type="text"],
+.custom-input [type="password"]  { 
+color: rgba(255, 255, 255, 1);
+}
+
+.custom-button  { 
+    color: rgba(0, 0, 0, 0.8);
+    }
+
+.input.container { 
+  background-image: url('sfondo.jpg'); /* Immagine di sfondo */
+  background-repeat: repeat-y; /* Ripeti l'immagine solo verticalmente */
+  background-size: cover; /* Copri completamente il contenitore con l'immagine */
+}
+    
