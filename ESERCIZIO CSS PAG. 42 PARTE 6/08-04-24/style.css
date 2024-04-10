@@ -1,0 +1,17 @@
+/* Selettore CLasse */
+.titolo {
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 30px;
+    box-sizing: content-box; /* box-sizing predefinito */
+}
+
+/* Stili CSS per il sottotitolo */
+.sottotitolo {
+    height: 50px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 15px;
+    box-sizing: border-box; /* box-sizing che include il bordo */
+}
