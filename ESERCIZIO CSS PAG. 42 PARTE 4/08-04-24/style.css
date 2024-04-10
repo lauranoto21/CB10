@@ -1,0 +1,11 @@
+/* Selettore Classe */
+
+.image-container {
+    width: 200px; /* Larghezza dell'immagine */
+            padding: 15px; /* Padding dell'immagine */
+            border: 10px solid black; /* Bordo dell'immagine */
+            margin: 25px; /* Margine dell'immagine */
+            box-sizing: border-box; /* Imposta il box-sizing a border-box */
+}
+
+ 
