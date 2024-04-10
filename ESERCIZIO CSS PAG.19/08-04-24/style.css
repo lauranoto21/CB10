@@ -1,0 +1,33 @@
+/* Selettore TAG */
+
+body  { 
+    background-color: pink;
+}
+
+
+h1 { 
+    color: red;
+} 
+
+
+p { 
+    color: green;
+} 
+
+
+a { 
+    color: blue;
+}
+
+/* Selettore Classe */
+
+.titolo  { 
+color: pink;
+}
+
+
+/* Selettore ID */
+
+#titolo { 
+    color: yellow;
+    }
