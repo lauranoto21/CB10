@@ -1,0 +1,37 @@
+/* Selettore TAG */
+h1 { 
+    front-size: 25px;
+    color: red;
+}
+
+h2 {
+    color: red;
+} 
+
+input {
+    color: grey;
+} 
+
+/* Selettore Classe */
+.p { 
+    color: green;
+} 
+
+.custom button { 
+    color: white;
+} 
+
+
+/* Selettore ID */
+#colored-list  li:first-child { 
+    color: orange;
+} 
+
+#colored-list .second-item{ 
+    color: purple;
+} 
+
+/* Selettore di attributo */
+input [type="password"] {
+    background-color: blue;
+}
