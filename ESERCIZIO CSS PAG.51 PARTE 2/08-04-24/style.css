@@ -1,0 +1,9 @@
+/* Selettore Classe */
+.box {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
