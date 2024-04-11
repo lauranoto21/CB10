@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Posizionamento fixed con CSS</title>
+<style>
+    .container {
+        height: 2000px; /* Altezza del contenitore superiore alla dimensione della pagina */
+        position: relative;
+    }
+    .box {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box"></div>
+</div>
+
+</body>
+</html>
