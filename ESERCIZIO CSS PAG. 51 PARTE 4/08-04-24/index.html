@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Posizionamento sticky con CSS</title>
+<style>
+    .container {
+        height: 2000px; /* Altezza del contenitore superiore alla dimensione della pagina */
+        position: relative;
+    }
+    .box {
+        position: sticky;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box"></div>
+    <!-- Aggiungi del contenuto qui per consentire lo scroll -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo justo ac metus malesuada, sit amet luctus dolor tincidunt. Maecenas in sapien in dolor tincidunt lacinia. Phasellus nec urna vitae risus pharetra mattis. Nulla nec lectus eget magna tristique fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <!-- Fine del contenuto -->
+</div>
+
+</body>
+</html>

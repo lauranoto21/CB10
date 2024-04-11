@@ -1,0 +1,12 @@
+/* Selettore Classe */
+container {
+    height: 2000px; /* Altezza del contenitore superiore alla dimensione della pagina */
+    position: relative;
+}
+.box {
+    position: sticky;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
